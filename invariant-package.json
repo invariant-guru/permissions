@@ -1,5 +1,5 @@
 {
-  "name": "@invariant.guru/permissions",
+  "name": "permissions",
   "version": "1.0.0",
   "description": "Permission modes that control how much your AI CLI asks before acting.",
   "author": "invariant.guru",
