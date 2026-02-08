@@ -1,0 +1,32 @@
+{
+  "name": "permissions",
+  "version": "1.0.0",
+  "targets": [
+    "claude"
+  ],
+  "packages": {
+    "@invariant.guru/package": {
+      "name": "@invariant.guru/package",
+      "version": "1.0.0",
+      "source": "github",
+      "sourceUrl": "github:invariant-guru/package"
+    }
+  },
+  "active": [
+    {
+      "package": "@invariant.guru/package",
+      "type": "agents",
+      "item": "package-creator"
+    },
+    {
+      "package": "@invariant.guru/package",
+      "type": "skills",
+      "item": "create-package"
+    },
+    {
+      "package": "@invariant.guru/package",
+      "type": "instructions",
+      "item": "package-creation"
+    }
+  ]
+}

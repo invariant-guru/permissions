@@ -1,0 +1,16 @@
+{
+  "name": "@invariant.guru/permissions",
+  "version": "1.0.0",
+  "description": "Permission modes that control how much your AI CLI asks before acting.",
+  "author": "invariant.guru",
+  "license": "MIT",
+  "repository": "https://github.com/invariant-guru/permissions",
+  "items": {
+    "instructions": [
+      { "name": "low", "description": "Ultra-cautious mode — AI asks confirmation for every action." },
+      { "name": "medium", "description": "Balanced mode — AI asks for shell commands and destructive actions only." },
+      { "name": "high", "description": "Permissive mode — AI asks only for critical or dangerous operations." },
+      { "name": "yolo", "description": "Full autopilot — AI never asks and executes everything autonomously." }
+    ]
+  }
+}
